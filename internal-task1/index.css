@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+@media screen and (min-width:500px){
+    .carousal-container{
+        top: 30%;
+    }
+    
+    
+}
+
+header{
+    height: 60px;
+}
+.image{
+    height: 75vh;
+    background-position: center;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+@media screen and (max-width:767px){
+    .image{
+        height: 100%;
+        background-position: center;
+        
+    }
+    .carousel-heading{
+        font-size: 20px;
+        
+        font-weight: 800;
+    }
+    .carousel-paragraph{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .image{
+        height: 40vh;
+        background-position: center;
+        
+    }
+    
+}
+.icon-1{
+    top:-30px;
+
+}
+.FAQ{
+    background-color: #FDF2E9  ;
+    
+}
+.Frequently{
+    background-color: transparent;
+}

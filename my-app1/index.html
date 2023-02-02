@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg text-bg-dark">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
+        <button
+          class="navbar-toggler text-secondary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon text-secondary"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header-card pt-2">
+      <div class="header-container mt-5 mb-5 pt-5 pb-5">
+        <h1 class="header-heading text-center">
+          Present your business in a<br />
+          whole new way
+        </h1>
+        <p class="header-paragraph text-center">
+          Quickly design and customize responsive mobile first sites with<br />
+          Bootstrap, the worlds most popular front-end open source toolkit!
+        </p>
+        <div>
+          <button class="btn btn-primary ms-4">Get Started</button>
+          <button class="btn btn-outline-secondary ms-4 text-white">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="Featured-Title-Section mt-5 pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 mb-3">
+              <div class="icon-card mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-collection text-white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"
+                  />
+                </svg>
+              </div>
+
+              <h1 class="Featured-heading">Featured Title</h1>
+              <p class="Featured-paragraph">
+                Paragraph of text beneath the heading to explain the heading.
+                We'll add onto it with another sentence and probably just keep
+                going until we run out of words.
+              </p>
+              <a href="Call to action" class="anchor-element"
+                >Call to action
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+              <div class="icon-card mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-buildings text-white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z"
+                  />
+                  <path
+                    d="M2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-2 2h1v1H2v-1Zm2 0h1v1H4v-1Zm4-4h1v1H8V9Zm2 0h1v1h-1V9Zm-2 2h1v1H8v-1Zm2 0h1v1h-1v-1Zm2-2h1v1h-1V9Zm0 2h1v1h-1v-1ZM8 7h1v1H8V7Zm2 0h1v1h-1V7Zm2 0h1v1h-1V7ZM8 5h1v1H8V5Zm2 0h1v1h-1V5Zm2 0h1v1h-1V5Zm0-2h1v1h-1V3Z"
+                  />
+                </svg>
+              </div>
+              <h1 class="Featured-heading">Featured Title</h1>
+              <p class="Featured-paragraph">
+                Paragraph of text beneath the heading to explain the heading.
+                We'll add onto it with another sentence and probably just keep
+                going until we run out of words.
+              </p>
+              <a href="Call to action" class="anchor-element"
+                >Call to action
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+              <div class="icon-card mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-toggles2 text-white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2 0-.729-.195-1.412-.535-2z"
+                  />
+                  <path
+                    d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm.535-10a3.975 3.975 0 0 1-.409-1H4a1 1 0 0 1 0-2h2.126c.091-.355.23-.69.41-1H4a2 2 0 1 0 0 4h2.535z"
+                  />
+                  <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
+                </svg>
+              </div>
+
+              <h1 class="Featured-heading">Featured Title</h1>
+              <p class="Featured-paragraph">
+                Paragraph of text beneath the heading to explain the heading.
+                We'll add onto it with another sentence and probably just keep
+                going until we run out of words.
+              </p>
+              <a href="Call to action" class="anchor-element">Call to action</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Payment-And-Plans-Section mt-5 mb-5 pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mt-5 mb-5">
+              <h2 class="second-container-heading">Pay as you grow</h2>
+              <p class="second-container-pargraph">
+                With our no hassle pricing plans
+              </p>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Pay-card shadow">
+                <p class="Pay-card-pargraph">Free</p>
+                <h3 class="Pay-card-heading">
+                  $0<span class="second-container-pargraph">/mo.</span>
+                </h3>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1 Pay-card-pargraph1">1 users</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">5G Storage</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Unlimited public projects</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Community access</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x mr-1 text-secondary"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                  <p class="mt-1 text-secondary">Unlimited private projects</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x mr-1 text-secondary"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                  <p class="mt-1 text-secondary">Dedicated support</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x mr-1 text-secondary"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                  <p class="mt-1 text-secondary">Free linked domain</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x mr-1 text-secondary"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                  <p class="mt-1 text-secondary">Monthly status report</p>
+                </div>
+                <button class="btn btn-outline-primary ml-1 button">
+                  Choose Plan
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Pay-card shadow">
+                <div class="d-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill text-warning mt-1 mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                  <p class="Pay-card-pargraph text-dark">PRO</p>
+                </div>
+
+                <h3 class="Pay-card-heading">
+                  $9<span class="second-container-pargraph">/mo.</span>
+                </h3>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1 Pay-card-pargraph1">5 users</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">5G Storage</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Unlimited public projects</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Community access</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Unlimited private projects</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Dedicated support</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Free linked domain</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x mr-1 text-secondary"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                  <p class="mt-1 text-secondary">Monthly status report</p>
+                </div>
+                <button class="btn btn-primary ml-1 button">Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Pay-card shadow">
+                <p class="Pay-card-pargraph">ENTERPRISE</p>
+                <h3 class="Pay-card-heading">
+                  $42<span class="second-container-pargraph">/mo.</span>
+                </h3>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1 Pay-card-pargraph1">Unlimited users</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">5G Storage</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Unlimited public projects</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Community access</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Unlimited private projects</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">Dedicated support</p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="mt-1">
+                    <span class="Pay-card-pargraph1">Unlimited</span> linked
+                    domains
+                  </p>
+                </div>
+                <div class="plans-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 text-primary mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                  <p class="text-secondary mt-1">Monthly status report</p>
+                </div>
+                <button class="btn btn-outline-primary ml-1 button">
+                  Choose Plan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="Customer-testimonials-Section pb-5 pt-5 mb-3">
+        <div class="conatiner">
+          <div class="row">
+            <div class="col-12 text-center mt-5 mb-3">
+              <h2 class="second-container-heading">Customer testimonials</h2>
+              <p class="second-container-pargraph">
+                Our customers love working with us
+              </p>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-2 mb-2">
+              <div class="customer-Feedback-card d-flex p-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="currentColor"
+                  class="bi bi-chat-left-quote-fill text-primary pr-3 mt-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm7.194 2.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 4C4.776 4 4 4.746 4 5.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 7.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 4c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"
+                  />
+                </svg>
+                <div class="ms-2">
+                  <p>
+                    Thank you for putting together such a great product. We
+                    loved<br />
+                    working with you and the whole team, and we will be<br />
+                    recommending you to others!
+                  </p>
+                  <p class="text-secondary">- Client Name, Location</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 d-flex justify-content-center mt-2 mb-2 pt-3 pb-3"
+            >
+              <div class="customer-Feedback-card d-flex p-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="currentColor"
+                  class="bi bi-chat-left-quote-fill text-primary mt-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm7.194 2.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 4C4.776 4 4 4.746 4 5.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 7.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 4c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"
+                  />
+                </svg>
+                <div class="ms-2">
+                  <p>
+                    The whole team was a huge help with putting things together
+                    for<br />
+                    our company and brand. We will be hiring them again in the
+                    near<br />
+                    future for additional work!
+                  </p>
+                  <p class="text-secondary">- Client Name, Location</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="User-Feedback-Section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex flex-column align-items-center pt-5 pb-2">
+              <div class="text-bg-primary p-3 rounded m-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-envelope text-white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                  />
+                </svg>
+              </div>
+
+              <h4 class="second-container-heading">Get in touch</h4>
+              <p class="second-container-pargraph">
+                We'd love to hear from you
+              </p>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-center p-1">
+              <form class="d-flex flex-column p-1">
+                <input
+                  type="text"
+                  class="input-element mt-3 p-2 rounded border-0.5"
+                  placeholder="Full Name"
+                />
+                <input
+                  type="text"
+                  class="input-element mt-3 p-2 rounded border-0.5"
+                  placeholder="Email Address"
+                />
+                <input
+                  type="text"
+                  class="input-element mt-3 p-2 rounded border-0.5"
+                  placeholder="Phone number"
+                />
+                <textarea
+                  rows="5"
+                  cols="50"
+                  placeholder="Message"
+                  class="input-element mt-3 p-2 rounded border-0.5"
+                ></textarea>
+                <button class="form-button mt-3 mb-3">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center pt-5 pb-5 mt-3">
+      <p class="footer-paragraph">Copyright © Your Website 2022</p>
+    </footer>
+  </body>
+</html>

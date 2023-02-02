@@ -1,0 +1,165 @@
+  body{
+    margin: 0px;
+  }
+  .header-section {
+    
+    background-color: #3b5998 ;
+    color: white;
+    padding: 5px 30px;
+    font-family: roboto;
+    background-size: cover;
+    height: 10vh;
+    
+  }
+  .Birthday-card{
+    margin-top: 20px;
+  }
+  .selection-input{
+    padding: 6px;
+  }
+  
+  .facebook-container{
+    display: inline-block;
+    margin-top: 30px;
+
+  }
+  .Access-button{
+    color: #fff;
+    background-color: #56735C ;
+    border: 0px;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  
+  .form-section{
+    display:inline-block;
+    float: right;
+    margin-top: 0px;
+  }
+  
+  .form-section0 {
+    display:inline-block;
+    
+    margin: 0px 10px;
+    
+  }
+  .form-section1 {
+    display:inline-block;
+    
+    margin-top: 15px;
+    
+  }
+  .Email-input{
+    padding: 7px;
+    border-radius: 8px;
+  }
+  .Password-input{
+    padding: 7px;
+    border-radius: 8px;
+  }
+  .Login-button{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    border:0px;
+    text-align: center;
+    width: 60px;
+    background-color: #13A0EA  ;
+    color: #fff;
+
+  }
+  main{
+    background-color: #ECF0F1 ;
+    background-size: cover;
+    height: 70vh;
+    padding: 5% 10%;
+    
+  }
+  .Signup-paragraph{
+    margin-top: 5px;
+  }
+  .Birthday-heading{
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+  .Signup-heading{
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+
+  }
+  
+  
+  .forgot-paragraph {
+    color: black;
+    margin: 0px;
+    padding-top: 6px;
+    font-size: 15px;
+    
+  }
+  .facebook-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+    
+  }
+  
+  
+  
+  
+  
+  .left-section{
+      
+      display: inline-block;
+      width:40%;
+      
+
+  }
+  
+  .connect-container {
+    display: inline-block;
+  }
+  .signup-section {
+    display: inline-block;
+    
+    float: right;
+    width:40%;
+  }
+  
+  .signup-input-field {
+    padding: 6px;
+    height: 25px;
+    border-radius: 4px;
+    margin: 3px 0px;
+    width: 90%;
+  }
+  
+  .birthday-tag {
+    width: 50%;
+    padding-top: 0px;
+    margin-top: 0px;
+    float: left;
+  }
+  .birthday-select-section {
+    width: 50%;
+    float: left;
+  }
+  
+  .birthday-select-section select{
+      width: 31%;
+  
+  }
+  .list-item{
+    margin: 20px;
+  }
+  .login-input-field{
+    padding: 6px;
+  }
+  .birthday-tag{
+    color:#281b72;
+  }
+  

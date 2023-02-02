@@ -1,0 +1,566 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.registration-form-container {
+    background-color: #138D75;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.left-section {
+    background-image: url('./Screenshot\ 2023-01-31\ 223301.png');
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    margin-left: 10%;
+    float: left;
+    margin-top: 7%;
+}
+
+.right-section {
+    background-color: #F8F9F9;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    margin-top: 7%;
+    width: 40%;
+    height: 70%;
+    position: relative;
+
+}
+
+.registration-form {
+    position: absolute;
+    width: 80%;
+    left: 13%;
+    top: 2%;
+}
+
+.form-heading {
+    color: #1E8449;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 26px;
+}
+
+.form-paragraph1 {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.form-input {
+    width: 50%;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.Gender {
+    display: inline-block;
+}
+
+.Gender-label {
+    margin-right: 65px;
+    font-weight: 700;
+}
+
+.date-label {
+    margin-right: 35px;
+    font-weight: 700;
+}
+
+.City-label {
+    margin-right: 95px;
+    font-weight: 700;
+}
+
+.Country-label {
+    margin-right: 65px;
+    font-weight: 700;
+}
+
+.Subscription-label {
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+.cancel-button {
+    background-color: black;
+    color: #fff;
+    border: 0px;
+    width: 110px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 125px;
+    margin-right: 10px;
+}
+
+.confirm-button {
+    background-color: #138D75;
+    color: #fff;
+    border: 0px;
+    width: 110px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form-label {
+    margin-right: 80px;
+    font-weight: 700;
+}
+
+.form-card {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:992px) {
+    .left-section {
+        background-image: url('./Screenshot\ 2023-01-31\ 223301.png');
+        width: 90%;
+        height: 50vh;
+        background-position: center;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        display: block;
+
+        float: initial;
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+
+    .registration-form-container {
+        background-color: #138D75;
+        background-size: cover;
+        height: 140vh;
+        padding-top: 10px;
+
+
+    }
+
+    .right-section {
+        background-color: #F8F9F9;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        display: block;
+        float: initial;
+
+        margin: 20px;
+        width: 90%;
+        height: 80vh;
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .registration-form {
+        position: absolute;
+        width: 90%;
+        left: 3%;
+        top: 2%;
+    }
+
+    .form-heading {
+        color: #1E8449;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    form {
+        margin-top: 26px;
+    }
+
+    .form-paragraph1 {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .form-input {
+        width: 50%;
+        padding: 6px;
+        border-radius: 4px;
+    }
+
+    .Gender {
+        display: inline-block;
+    }
+
+    .Gender-label {
+        margin-right: 65px;
+        font-weight: 700;
+    }
+
+    .date-label {
+        margin-right: 35px;
+        font-weight: 700;
+    }
+
+    .City-label {
+        margin-right: 95px;
+        font-weight: 700;
+    }
+
+    .Country-label {
+        margin-right: 65px;
+        font-weight: 700;
+    }
+
+    .Subscription-label {
+        margin-right: 30px;
+        font-weight: 700;
+    }
+
+    .cancel-button {
+        background-color: black;
+        color: #fff;
+        border: 0px;
+        width: 80px;
+        padding: 8px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 125px;
+        margin-right: 8px;
+    }
+
+    .confirm-button {
+        background-color: #138D75;
+        color: #fff;
+        border: 0px;
+        width: 80px;
+        padding: 8px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .form-label {
+        margin-right: 80px;
+        font-weight: 700;
+    }
+
+    .form-card {
+        margin-bottom: 15px;
+    }
+
+    .Gold-Gender {
+        margin-left: 120px;
+    }
+
+}
+
+@media screen and (min-width:390px) and (max-width:500px) {
+
+    .right-section {
+        background-color: #F8F9F9;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        display: block;
+        float: initial;
+
+        margin: 20px;
+        width: 90%;
+        height: 60vh;
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .registration-form-container {
+        background-color: #138D75;
+        background-size: cover;
+        height: 120vh;
+        padding-top: 10px;
+
+
+    }
+
+    .registration-form {
+        position: absolute;
+        width: 90%;
+        left: 8%;
+        top: 2%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:819px) {
+
+    .right-section {
+        background-color: #F8F9F9;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        display: block;
+        float: initial;
+
+        margin: 20px;
+        width: 90%;
+        height: 50vh;
+        position: relative;
+        margin-left: 4.8%;
+        margin-top: 0px;
+    }
+
+    .registration-form-container {
+        background-color: #138D75;
+        background-size: cover;
+        height: 100vh;
+        padding-top: 10px;
+
+
+    }
+
+    .registration-form {
+        position: absolute;
+        width: 90%;
+        left: 15%;
+        top: 2%;
+    }
+
+    .form-heading {
+        color: #1E8449;
+        text-align: start;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: 20%;
+    }
+
+    form {
+        margin-top: 26px;
+    }
+
+    .form-paragraph1 {
+        text-align: start;
+        font-size: 13px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-left: 20%;
+    }
+
+    .left-section {
+        background-image: url('./Screenshot\ 2023-01-31\ 223301.png');
+        width: 90%;
+        height: 35vh;
+        background-position: center;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        display: block;
+
+        float: initial;
+        margin: 20px;
+        margin-left: 4.5%;
+        margin-top: 6%;
+        margin-bottom: 0px;
+    }
+
+    .Gold-Gender {
+        margin-left: 1px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:576px) {
+
+    .right-section {
+        background-color: #F8F9F9;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        display: block;
+        float: initial;
+
+        margin: 20px;
+
+        width: 90%;
+        height: 68vh;
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .registration-form-container {
+        background-color: #138D75;
+        background-size: cover;
+        height: 130vh;
+        padding-top: 10px;
+
+
+    }
+
+    .registration-form {
+        position: absolute;
+        width: 90%;
+        left: 15%;
+        top: 2%;
+    }
+
+    .Gold-Gender {
+        margin-left: 1px;
+    }
+}
+
+@media screen and (min-width:820px) and (max-width:992px) {
+
+    .right-section {
+        background-color: #F8F9F9;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        display: block;
+        float: initial;
+
+        margin: 20px;
+        margin-left: 4.5%;
+        width: 90%;
+        height: 40vh;
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .registration-form-container {
+        background-color: #138D75;
+        background-size: cover;
+        height: 100vh;
+        padding-top: 10px;
+
+
+    }
+
+    .registration-form {
+        position: absolute;
+        width: 90%;
+        left: 15%;
+        top: 2%;
+    }
+
+    .left-section {
+        background-image: url('./Screenshot\ 2023-01-31\ 223301.png');
+        width: 90%;
+        height: 35vh;
+        background-position: center;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        display: block;
+
+        float: initial;
+        margin: 20px;
+        margin-left: 4.5%;
+        margin-top: 16%;
+        margin-bottom: 0px;
+    }
+
+    .form-heading {
+        color: #1E8449;
+        text-align: start;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: 20%;
+    }
+
+    form {
+        margin-top: 26px;
+    }
+
+    .form-paragraph1 {
+        text-align: start;
+        font-size: 13px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-left: 20%;
+    }
+
+    .Gold-Gender {
+        margin-left: 1px;
+    }
+
+}
+
+@media screen and (min-width:993px) and (max-width:1199px) {
+
+    .registration-form-container {
+        background-color: #138D75;
+        background-size: cover;
+        height: 100vh;
+    
+    
+    }
+    
+    .left-section {
+        background-image: url('./Screenshot\ 2023-01-31\ 223301.png');
+        width: 40%;
+        height: 80%;
+        border-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-position: center;
+        margin-left: 10%;
+        float: left;
+        margin-top: 6%;
+    }
+    
+    .right-section {
+        background-color: #F8F9F9;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        display: inline-block;
+        float: right;
+        margin-right: 10%;
+        margin-top: 6%;
+        width: 40%;
+        height: 80%;
+        position: relative;
+    
+    }
+    
+    .registration-form {
+        position: absolute;
+        width: 80%;
+        left: 13%;
+        top: 2%;
+    }
+    
+    .cancel-button {
+        background-color: black;
+        color: #fff;
+        border: 0px;
+        width: 80px;
+        padding: 8px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 125px;
+        margin-right: 8px;
+    }
+    
+    .confirm-button {
+        background-color: #138D75;
+        color: #fff;
+        border: 0px;
+        width: 80px;
+        padding: 8px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    
+
+}

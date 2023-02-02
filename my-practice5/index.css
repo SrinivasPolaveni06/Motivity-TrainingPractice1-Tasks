@@ -1,0 +1,100 @@
+body{
+    overflow-y: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.Registraition-card{
+    height: 90vh;
+}
+.nav-backg-color{
+    background-color: #EAEEF0;
+
+}
+@media screen and (min-width: 992px){
+    .Registraition-heading{
+        font-size: 35px;
+       
+    }
+    .icon {
+    
+        min-width: 40px;
+        top: 24%;
+        
+    }
+    .Email-icon {
+        
+        
+        top:37%;
+        
+    }
+    .Password-icon {
+        
+        min-width: 38px;
+        top: 50%;
+        
+    }
+    .City-icon {
+        
+        min-width: 40px;
+        top: 78.2%;
+        
+    }
+    .label-class-name{
+        font-weight: 500;
+        font-family: roboto;
+    }
+    
+    
+}
+@media screen and (max-width:991px) {
+    .Registraition-heading{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
+    .icon {
+    
+        min-width: 40px;
+        top: 22%;
+        
+    }
+    .Email-icon {
+        
+        
+        top:36%;
+        
+    }
+    .Password-icon {
+        
+        min-width: 38px;
+        top: 49%;
+        
+    }
+    .City-icon {
+        
+        min-width: 40px;
+        top: 78%;
+        
+    }
+    .label-class-name{
+        font-weight: 400;
+        font-family: roboto;
+    }
+    
+    
+}
+
+.Name-input-icons i {
+    position: absolute;
+}
+
+.Email-input-icons svg {
+    position: absolute;
+}
+
+.Password-input-icons svg {
+    position: absolute;
+}
+
+.City-input-icons svg {
+    position: absolute;
+}
+

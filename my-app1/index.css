@@ -1,0 +1,169 @@
+.header-card{
+    background-color: #212529 ;
+    background-size: cover;
+    
+}
+.Bootstrap-paragraph{
+    color:#ffffff;
+    font-size: 17px;
+}
+.nav-list1{
+    color:#919b98;
+
+    
+}
+.nav-list{
+    color:#ffffff;
+    
+    
+}
+.nav-unorderedlist{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.button{
+    width:90%
+}
+.nav-card{
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header-heading{
+    color:#ffffff;
+    
+    font-size: 40px;
+}
+.header-paragraph{
+    color:#808B96;
+    
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.anchor-element{
+    text-decoration: none;
+    font-weight: 500;
+}
+.icon-card{
+    background-color: #3366ff;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 8px;
+    
+}
+.Featured-heading{
+    font-size: 23px;
+    font-weight: 700;
+}
+.Featured-paragraph{
+    font-size: 15px;
+    font-weight: 450;
+    
+}
+.Payment-And-Plans-Section{
+    background-color: #F2F3F4;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.plans-container{
+    display: flex;
+    align-items: center;
+}
+.Pay-card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding:  20px;
+    margin: 10px;
+}
+.second-container-heading{
+    font-size: 28px;
+    font-weight: 700;
+}
+.second-container-pargraph{
+    font-size: 15px;
+    font-weight: 400;
+    color: #808B96;
+}
+.Pay-card-pargraph{
+    font-size: 16px;
+    font-weight: 500;
+    color:#6c757d;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.Pay-card-heading{
+    font-size: 35px;
+    font-weight: 700;
+}
+.Customer-testimonials-Section{
+    background-color: #ffffff;
+    background-size: cover;
+
+}
+.Pay-card-pargraph1{
+    font-size: 16px;
+    font-weight: 700;
+    
+
+}
+.customer-Feedback-card{
+    border:solid 1px #808B96;
+    border-radius: 5px;
+    
+}
+.User-Feedback-Section{
+    background-color: #f8f9fa;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.input-element{
+    width:100%;
+    
+}
+.Nav-icon{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.form-button{
+    background-color: #609ffc;
+    width: 100%;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center;
+    height: 46px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.footer-paragraph{
+    font-size: 17px;
+    font-weight: 400;
+    color:#ffffff;
+}
+footer{
+    background-color: #212529 ;
+    background-size: cover;
+    padding: 10px;
+    
+
+}
+

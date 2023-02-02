@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="registration-form-container">
+          <div class="left-section"></div>
+          <div class="right-section">
+            <div class="registration-form">
+              <h1 class="form-heading">Registration</h1>
+              <p class="form-paragraph1">CLICK FOR YOUR SCHOOL</p>
+              <form>
+                <div class="form-card">
+                  <label class="form-label" for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-input"
+                    id="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="form-card">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-input"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="form-card">
+                  <label class="Gender-label">Gender</label>
+
+                  <div class="Gender">
+                    <input type="radio" id="male" name="gender" checked />
+                    <label for="male">Male</label>
+                  </div>
+                  <div class="Gender">
+                    <input type="radio" id="Female" name="gender" />
+                    <label for="Female">Female</label>
+                  </div>
+                </div>
+                <div class="form-card">
+                  <label for="date" class="date-label">Date of Birth</label>
+                  <input
+                    type="date"
+                    id="date"
+                    class="form-input"
+                    placeholder="DD/MM/YYYY"
+                  />
+                </div>
+                <div class="form-card">
+                  <label for="City" class="City-label">City</label>
+                  <input
+                    type="text"
+                    id="City"
+                    class="form-input"
+                    placeholder="Enter your city"
+                  />
+                </div>
+                <div class="form-card">
+                  <label for="Country" class="Country-label">Country</label>
+                  <input
+                    type="text"
+                    id="Country"
+                    class="form-input"
+                    placeholder="Enter your country"
+                  />
+                </div>
+
+                <div class="form-card">
+                  <label class="Subscription-label">Subscription</label>
+
+                  <div class="Gender">
+                    <input type="radio" id="Bronze" name="Subscription" />
+                    <label for="Bronze">Bronze</label>
+                  </div>
+                  <div class="Gender">
+                    <input
+                      type="radio"
+                      id="Silver"
+                      name="Subscription"
+                      checked
+                    />
+                    <label for="Silver">Silver</label>
+                  </div>
+                  <div class="Gender Gold-Gender">
+                    <input type="radio" id="Gold" name="Subscription" />
+                    <label for="Gold">Gold</label>
+                  </div>
+                </div>
+                <div class="btn-section">
+                  <button class="cancel-button">Cancel</button>
+                  <button class="confirm-button">Confirm</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

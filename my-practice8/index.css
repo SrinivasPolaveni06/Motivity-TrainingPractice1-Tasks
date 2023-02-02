@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    
+}
+.offcanvas{
+    visibility: visible;
+    background-color: #252626 ;
+}
+
+.list-item{
+    text-decoration: none;
+}
+.list-item-card{
+    margin-bottom: 8px;
+}
+header{
+    height: 60px;
+    
+    
+}
+
+footer{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.hero-section{
+    background-image: url('./web-development-background_76964-167.webp');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    height: 60vh;
+    margin: 0px;
+    
+}
+.footer-icon{
+    width: 80px;
+    height: 80px;
+}
+.footer-items{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.footer-Copyright{
+    font-size: 19px;
+    font-family: roboto;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.icon-container{
+    background-color: #1997F4 ;
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    margin-right: 8px;
+    
+}
+@media screen and (max-width:768px) {
+    .hero-section-heading{
+        font-size: 25px;
+    }
+    .hero-section-paragraph{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .hero-section{
+        background-image: url('./web-development-background_76964-167.webp');
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+        height: 40vh;
+        margin: 0px;
+        
+    }
+
+    
+}

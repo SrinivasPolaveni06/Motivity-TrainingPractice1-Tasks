@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .Java-card {
+        background-color: #d0d8de;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+      }
+      section {
+        height: 90vh;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      button {
+        background-color: #148fe4;
+        border: 0px;
+        border-radius: 8px;
+        padding: 8px;
+        width: 120px;
+        color: #fff;
+        font-size: 15px;
+        margin: 20px;
+      }
+    </style>
+    <main>
+      <section>
+        <div class="Java-card">
+          <h1>Wellcome to Javascript</h1>
+        </div>
+        <button id="toggleButton">Hide</button>
+      </section>
+    </main>
+    <script>
+      const JavaContainer = document.querySelector(".Java-card");
+      const toggleButton$ = document.querySelector("#toggleButton");
+      let isVisible = false;
+      toggleButton$.addEventListener("click", function () {
+        if (isVisible) {
+          JavaContainer.style.display = "block";
+          toggleButton$.innerHTML = "Hide";
+          isVisible = false;
+        } else {
+          JavaContainer.style.display = "none";
+          toggleButton$.innerHTML = "Show";
+          isVisible = true;
+        }
+      });
+    </script>
+  </body>
+</html>

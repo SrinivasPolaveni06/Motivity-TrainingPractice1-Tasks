@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="./libs/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./fonts/font-awesome-4.7.0/css/font-awesome.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light nav-backg-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./logo-motivity.png" alt="logo" width="150px" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbarsection"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbarsection">
+            <ul class="navbar-nav ms-auto text-black">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div
+            class="row Registraition-card d-flex justify-content-center align-items-center"
+          >
+            <div class="col-md-6">
+              <div class="card shadow p-5 rounded">
+                <h1 class="text-center Registraition-heading">
+                  Registration Form
+                </h1>
+                <form>
+                  <div class="mb-2 Name-input-icons">
+                    <label for="inputEmail4" class="form-label label-class-name"
+                      >Name</label
+                    >
+
+                    <input
+                      type="text"
+                      placeholder="Enter Name"
+                      class="form-control ps-4"
+                      id="inputEmail4"
+                    />
+                    <i class="fa fa-user icon ps-2" aria-hidden="true"></i>
+                  </div>
+                  <div class="mb-2 Email-input-icons">
+                    <label for="inputEmail4" class="form-label label-class-name"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      placeholder="Enter Email"
+                      class="form-control ps-4"
+                      id="inputEmail4"
+                    />
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-envelope-fill Email-icon ps-1 pe-1"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="mb-2 Password-input-icons">
+                    <label
+                      for="inputPassword4"
+                      class="form-label label-class-name"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control ps-4"
+                      id="inputPassword4"
+                      placeholder="Enter Password"
+                    />
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-lock Password-icon pe-2"
+                      width="21"
+                      height="21"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="#2c3e50"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <rect x="5" y="11" width="14" height="10" rx="2" />
+                      <circle cx="12" cy="16" r="1" />
+                      <path d="M8 11v-4a4 4 0 0 1 8 0v4" />
+                    </svg>
+                  </div>
+
+                  <div>
+                    <label for="gender " class="label-class-name">Gender</label>
+                  </div>
+
+                  <div class="form-check pt-1" id="gender">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios1"
+                      value="option1"
+                      checked
+                    />
+
+                    <label class="form-check-label" for="exampleRadios1">
+                      <i class="fa fa-male ps-2" aria-hidden="true"></i> Male
+                    </label>
+                  </div>
+                  <div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios2"
+                        value="option2"
+                      />
+
+                      <label class="form-check-label" for="exampleRadios2">
+                        <i class="fa fa-female ps-2" aria-hidden="true"></i>
+                        Female
+                      </label>
+                    </div>
+                  </div>
+                  <div class="mt-2 City-input-icons">
+                    <label for="inputState" class="form-label label-class-name"
+                      >City</label
+                    >
+                    <select id="inputState" class="form-select ps-4">
+                      <option selected>Select City</option>
+                      <option>Hyderabad</option>
+                      <option>Karimnagar</option>
+                      <option>Warangal</option>
+                      <option>Peddapalli</option>
+                      <option>Kamareddy</option>
+                    </select>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20px"
+                      viewBox="0 0 24 24"
+                      width="20px"
+                      fill="#000000"
+                      class="City-icon pe-3 ms-0"
+                    >
+                      <path d="M0 0h24v24H0V0z" fill="none" />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-.61.08-1.21.21-1.78L8.99 15v1c0 1.1.9 2 2 2v1.93C7.06 19.43 4 16.07 4 12zm13.89 5.4c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41C17.92 5.77 20 8.65 20 12c0 2.08-.81 3.98-2.11 5.4z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="mt-3 text-center">
+                    <button type="submit" class="btn btn-primary px-5">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

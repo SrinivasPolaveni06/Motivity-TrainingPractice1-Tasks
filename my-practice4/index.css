@@ -1,0 +1,57 @@
+.list-container{
+    list-style-type: none;
+}
+main{
+    background-size: cover;
+    height: 80vh;
+}
+.footer-element{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+}
+.ordered-list1{
+    list-style-type: none;
+    display: inline-block;
+    
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+.ordered-list2{
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+
+}
+.footer-element1{
+    text-decoration: none;
+    color:black;
+    margin: 8px;
+    
+}
+.header-container{
+    text-align: right;
+}
+.search-seaction{
+    position: relative;
+}
+.main-card{
+    padding-top: 13%;
+}
+.google-search{
+    width:30%
+    
+}
+.search-icon{
+    width:25px;
+    position: absolute;
+    left: 35.5%;
+    top:26%;
+
+}

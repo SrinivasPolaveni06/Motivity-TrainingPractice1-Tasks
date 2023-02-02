@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Music Library</h1>
+    </header>
+    <main>
+      <section>
+        <h2 class="Audio-heading">Audio</h2>
+        <div class="music-container">
+          <div class="music-card">
+            <img src="./kgf-yash-hd.jpg" alt="kgf-movie" />
+            <audio id="kgfMovie">
+              <source src="./KGF-Don-Bgm.mp3" type="audio/mpeg" />
+            </audio>
+            <div class="btn-card">
+              <button class="button" id="kgfMoviePlay">Play</button>
+              <button class="Pause-button" id="kgfMoviePause">Pause</button>
+            </div>
+          </div>
+          <div class="music-card">
+            <img src="./dhanush-mass-image.jpg" alt="Maari-movie" />
+            <audio id="maariMovie">
+              <source
+                src="./Donu-Donu-Donu-Musiq-with-Drum-Beats.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <div class="btn-card">
+              <button class="button" id="MaariMoviePlay">Play</button>
+              <button class="Pause-button" id="MaariMoviePause">Pause</button>
+            </div>
+          </div>
+          <div class="music-card">
+            <img src="./vikram-hd-image.jpg" alt="vikram-movie" />
+            <audio id="vikramMovie">
+              <source
+                src="./Lokiverse-Background-Score-Bgm-Ringtone.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <div class="btn-card">
+              <button class="button" id="vikramMoviePlay">Play</button>
+              <button class="Pause-button" id="vikramMoviePause">Pause</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

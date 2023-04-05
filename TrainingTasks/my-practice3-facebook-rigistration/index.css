@@ -75,7 +75,7 @@
   main{
     background-color: #ECF0F1 ;
     background-size: cover;
-    height: 70vh;
+    min-height: 70vh;
     padding: 5% 10%;
     
   }
